@@ -18,29 +18,29 @@ const ChooseFour = () => {
                             <div className="why-choose-us__three-bottom">
                                 <div className="why-choose-us__three-bottom-card">
                                     <div className="why-choose-us__three-bottom-card-content">
-                                        <h4>Projet </h4>
+                                        <h4>Projets </h4>
                                     </div>
                                     <div className="why-choose-us__three-bottom-card-counter">
-                                        <h4 className="counter"><Count number={143}/></h4>
-                                        <h4>k</h4>
+                                        <h4>+ </h4>
+                                        <h4 className="counter"><Count number={150}/></h4>
                                     </div>
                                 </div>
                                 <div className="why-choose-us__three-bottom-card">
                                     <div className="why-choose-us__three-bottom-card-content">
-                                        <h4>Clients qui</h4>
+                                        <h4>Clients</h4>
                                     </div>
                                     <div className="why-choose-us__three-bottom-card-counter">
+                                        <h4>+ </h4>
                                         <h4 className="counter"><Count number={230}/></h4>
-                                        <h4>+</h4>
                                     </div>
                                 </div>
                                 <div className="why-choose-us__three-bottom-card">
                                     <div className="why-choose-us__three-bottom-card-content">
-                                        <h4>Clients qui</h4>
+                                        <h4>Personnel</h4>
                                     </div>
                                     <div className="why-choose-us__three-bottom-card-counter">
-                                        <h4 className="counter"><Count number={230}/></h4>
                                         <h4>+</h4>
+                                        <h4 className="counter"><Count number={500}/></h4>
                                     </div>
                                 </div>
                             </div>
