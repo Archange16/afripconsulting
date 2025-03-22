@@ -2,23 +2,21 @@
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header/header-one";
 import BreadCrumb from "../../common/breadcrumb";
-import BlogGridMain from "./blog-grid";
-import FooterOne from "@/components/layout/footers/footer-one";
+import TwoColumns from "./two-columns";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import FooterTwo from "@/components/layout/footers/footer-two";
 
-
-const BlogGrid = () => {
+const PortfolioTowColumns = () => {
     return (
         <>
-            <SEO pageTitle='Blog Grid' />
+            <SEO pageTitle='Portfolio Grid - 02 Columns' />
             <HeaderOne />
-            <BreadCrumb title="Blog Grid" innerTitle="Blog Grid" />
-            <BlogGridMain />
-            <FooterTwo />
-            <ScrollToTop />
+            <BreadCrumb title="02 Columns" innerTitle="Portfolio Grid" />
+            <TwoColumns />        
+            <FooterTwo />    
+            <ScrollToTop />      
         </>
     );
 };
 
-export default BlogGrid;
+export default PortfolioTowColumns;

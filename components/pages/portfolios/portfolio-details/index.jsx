@@ -2,26 +2,22 @@
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header/header-one";
 import BreadCrumb from "../../common/breadcrumb";
-import ServicesMain from "./services";
-import WorkArea from "../../home/work";
-import Testimonial from "../../home/testimonial";
+import PortfolioDetailsMain from "./portfolio-details";
 import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import FooterTwo from "@/components/layout/footers/footer-two";
 
-const ServicePage = () => {
+const PortfolioDetails = ({singleData}) => {
     return (
         <>
-            <SEO pageTitle="Our Services" />
+            <SEO pageTitle={singleData?.title} />
             <HeaderOne />
-            <BreadCrumb title="Our Services" innerTitle="Our Services" />
-            <ServicesMain />
-            <WorkArea />
-            <Testimonial />
+            <BreadCrumb title={singleData?.title} innerTitle={singleData?.title} />
+            <PortfolioDetailsMain singleData={singleData} />
             <FooterTwo />
             <ScrollToTop />
         </>
     );
 };
 
-export default ServicePage;
+export default PortfolioDetails;
