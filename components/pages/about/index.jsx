@@ -14,7 +14,7 @@ const AboutUs = () => {
         <SEO pageTitle="About Us" />
         <HeaderFour />
         <BreadCrumb title="About Us" innerTitle="Company About" />
-        <About />
+        <AboutMain />
         <FooterTwo />        
         <ScrollToTop />
       </>
