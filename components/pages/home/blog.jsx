@@ -8,8 +8,8 @@ const BlogFour = () => {
                 <div className="row justify-content-center text-center">
                     <div className="col-xl-6 col-lg-6 col-md-8 col-sm-9">
                         <div className="blog__four-title">
-                            <span className="subtitle-one">Blog And news</span>
-                            <h2>Cloud productivity IT expertise</h2>
+                            <span className="subtitle-one">Nos derniers articles</span>
+                            <h2>Le blog d’Afrip : Conseils, actualités et inspirations</h2>
                         </div>
                     </div>
                 </div>

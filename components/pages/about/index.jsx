@@ -3,17 +3,18 @@ import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header/header-one";
 import BreadCrumb from "../common/breadcrumb";
 import AboutMain from "./about";
-import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../common/scroll/scroll-to-top";
 import FooterTwo from "@/components/layout/footers/footer-two";
+import HeaderFour from "@/components/layout/headers/header/header-four";
+import About from "@/app/about/page";
 
 const AboutUs = () => {
     return (
       <>
         <SEO pageTitle="About Us" />
-        <HeaderOne />
+        <HeaderFour />
         <BreadCrumb title="About Us" innerTitle="Company About" />
-        <AboutMain />
+        <About />
         <FooterTwo />        
         <ScrollToTop />
       </>

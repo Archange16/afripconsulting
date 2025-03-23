@@ -37,8 +37,8 @@ const slideControl = {
                 <div className="row justify-content-center text-center">
                     <div className="col-xl-7 col-lg-6 col-md-7">
                         <div className="testimonial__two-title">
-                            <span className="subtitle-one">Praise & Feedback</span>
-                            <h2>Customer Experiences</h2>
+                            <span className="subtitle-one">Témoignages</span>
+                            <h2>Ce que nos clients disent de nous</h2>
                         </div>
                     </div>
                 </div>
@@ -53,11 +53,11 @@ const slideControl = {
                                 <div className="single-slider">
                                     <div className="single-slider-user">
                                         <div className="single-slider-user-name">
-                                            <h4>Nasir Al Shakib</h4>
-                                            <span>Content Creator</span>
+                                            <h4>Jean Dupont, Promoteur immobilier</h4>
+                                            <span>Construction d’un immeuble résidentiel</span>
                                         </div>
                                     </div>
-									<p>Their product exceeded his my ro expectationsa  The the quality and attention to  moutstandin an  and it has become an essential active</p>
+									<p>Afrip a été un partenaire incroyable. Leur expertise et leur respect des délais ont fait toute la différence. Je recommande vivement !</p>
                                     <div className="single-slider-user-rating mt-30">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
@@ -71,11 +71,47 @@ const slideControl = {
                                 <div className="single-slider">
                                     <div className="single-slider-user">
                                         <div className="single-slider-user-name">
-                                            <h4>Devon Lane</h4>
-                                            <span>Marketing</span>
+                                            <h4>Marie Leroy, Propriétaire</h4>
+                                            <span>Rénovation d’une maison</span>
                                         </div>
                                     </div>
-									<p>Their product exceeded his my ro expectationsa  The the quality and attention to  moutstandin an  and it has become an essential active</p>
+									<p>Afrip a été très professionnel. Les matériaux étaient de haute qualité, et leurs conseils très utiles. Un grand merci !</p>
+                                    <div className="single-slider-user-rating mt-30">
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star not-rated"></i>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="single-slider">
+                                    <div className="single-slider-user">
+                                        <div className="single-slider-user-name">
+                                            <h4>Pierre Martin, Chef de projet</h4>
+                                            <span>Étude de structure pour un bâtiment commercial</span>
+                                        </div>
+                                    </div>
+									<p>Afrip a fourni des calculs précis et détaillés, ce qui nous a permis de lancer le chantier en toute confiance. Très professionnel.</p>
+                                    <div className="single-slider-user-rating mt-30">
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star not-rated"></i>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="single-slider">
+                                    <div className="single-slider-user">
+                                        <div className="single-slider-user-name">
+                                            <h4>Sophie Lambert, Gestionnaire de patrimoine</h4>
+                                            <span>Maintenance d’un immeuble locatif</span>
+                                        </div>
+                                    </div>
+									<p>Afrip gère la maintenance de notre immeuble depuis plus d’un an. Leur réactivité et leur expertise sont impeccables. Merci !</p>
                                     <div className="single-slider-user-rating mt-30">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>

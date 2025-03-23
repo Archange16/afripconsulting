@@ -27,13 +27,13 @@ const HeaderFour = ({variant}) => {
                 <div className="row">
                     <div className="col-xl-7 col-md-7">
                         <div className="top__bar-left">
-                            <span><i className="fas fa-clock"></i>Working Hours : 10AM - 08PM</span>
-                            <Link href="mailto:info@example.com"><i className="fas fa-envelope"></i>info@example.com</Link>
+                            <span><i className="fas fa-clock"></i>Horaires d'ouverture : 07h00 - 17h30</span>
+                            <Link href="mailto:contact@afripconsulting.com"><i className="fas fa-envelope"></i>contact@afripconsulting.com</Link>
                         </div>
                     </div>
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                            <Link href="#">Browse Our Success Stories</Link>
+                            <Link href="tel:+242040039796">+242 04 003 97 96</Link>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const HeaderFour = ({variant}) => {
                 <div className="header__area-menubar-right">
                     <div className="header__area-menubar-right-box">
 						<div className="header__area-menubar-right-box-btn">
-							<Link className="btn-two" href="/request-quote">Demandez un devis gratuit</Link>
+							<Link className="btn-two" href="/contact">Demandez un devis gratuit</Link>
 						</div>
                         <div className="header__area-menubar-right-box-search">
 							<div className="search">	

@@ -13,18 +13,18 @@ const FooterTwo = () => {
                 <div className="row justify-content-center text-center subscribe__one-content" style={{backgroundImage: `url(${ctaBg.src})`}}>
                     <div className="col-xl-7 col-lg-8">
                         <div className="subscribe__one-title">
-                            <h3>Unlock Your Potential Today</h3>
+                            <h3>Parlons de votre projet</h3>
                         </div>
                         <div className="subscribe-bottom">
-                            <Link href="/request-quote" className="btn-two">request quote<i className="fas fa-arrow-right"></i></Link>
+                            <Link href="/request-quote" className="btn-two">Échangez avec nos experts<i className="fas fa-arrow-right"></i></Link>
                             <div className="call-box">
                                 <div className="call-box-item">
                                     <div className="call-box-item-icon">
                                         <i className="flaticon-telephone-call"></i>
                                     </div>
                                     <div className="call-box-item-info">
-                                        <span>Make a call</span>
-                                        <Link href="tel:(307)555-0133">(307) 555-0133</Link>
+                                        <span>Appelez-nous</span>
+                                        <Link href="tel:+242040039796">+242 04 003 97 96</Link>
                                     </div>
                                 </div>
                             </div>
@@ -37,70 +37,74 @@ const FooterTwo = () => {
             <img className="footer__one-shape" src={footerBg.src} alt="image" />
             <div className="container">
                 <div className="row gy-4 justify-content-between">
-                    <div className="col-xl-3 col-md-6 col-sm-7 xl-mb-30">
+                    <div className="col-xl-4 col-md-6 col-sm-7 xl-mb-30">
                         <div className="footer__one-widget">
                             <div className="footer__one-widget-about">
                                 <Link href="/"><img src={logo.src} alt="Logo-image" /></Link>
-                                <p>Financial planners help people to gain knowledge about</p>
+                                <p>Afrip Consulting est votre partenaire pour la conception architecturale, l'étude de projets et la gestion immobilière. Nous mettons notre expertise à votre service pour réussir vos projets.</p>
                                 <div className="footer__one-widget-about-social">
-                                    <h4>Follow us</h4>	
+                                    <h4>Suivez-nous</h4>	
                                     <Social />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
+                    <div className="col-xl-2 col-md-6 col-sm-5 sm-mb-30">
                         <div className="footer__one-widget border-one">
-                            <h4>Service</h4>
+                            <h4>Services</h4>
                             <div className="footer__one-widget-solution">
                                 <ul>
                                     {servicesData.slice(0, 4).map((data, id) => {
                                         const words = data.nom.split(' ');
-                                        const firstAndSecondWord = words.slice(0, 2).join(' ');
+                                        const firstAndSecondWord = words.slice(0, 5).join(' ');
                                         return (
-                                            <li key={id}><Link href={`/services/${data.id}`}><i className="far fa-chevron-double-right"></i>{firstAndSecondWord}</Link></li>
+                                            <li key={id}><Link href={`/services/${data.id}`}>{firstAndSecondWord}</Link></li>
                                         );
                                     })}
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-md-6 col-sm-6 sm-mb-30">
+                    <div className="col-xl-2 col-md-6 col-sm-6 sm-mb-30">
                         <div className="footer__one-widget border-one">
-                            <h4>Contact</h4>
-                            <div className="footer__one-widget-location">
-                                <div className="footer__one-widget-location-item">
-                                    <div className="footer__one-widget-location-item-icon">
-                                        <i className="flaticon-mail"></i>
+                            <h4 className="">Liens utile</h4>
+                            <div className="footer__one-widget-solution">
+                                <ul>
+                                    {servicesData.slice(5, 8).map((data, id) => {
+                                        const words = data.nom.split(' ');
+                                        const firstAndSecondWord = words.slice(0, 5).join(' ');
+                                        return (
+                                            <li key={id}><Link href={`/services/${data.id}`}>{firstAndSecondWord}</Link></li>
+                                        );
+                                    })}
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6 col-sm-6">
+                        <div className="footer__one-widget border-one">
+                                <h4>Contact</h4>
+                                <div className="footer__one-widget-location">
+                                    <div className="footer__one-widget-location-item">
+                                        <div className="footer__one-widget-location-item-icon">
+                                            <i className="flaticon-mail"></i>
+                                        </div>
+                                        <div className="footer__one-widget-location-item-info email">
+                                            <span>Email</span>
+                                            <Link href="mailto:contact@afripconsulting.com">contact@afripconsulting.com</Link>
+                                        </div>
                                     </div>
-                                    <div className="footer__one-widget-location-item-info email">
-                                        <span>Email</span>
-                                        <Link href="mailto:helpinfo@gmail.com">helpinfo@gmail.com</Link>
-                                    </div>
-                                </div>
-                                <div className="footer__one-widget-location-item">
-                                    <div className="footer__one-widget-location-item-icon">
-                                        <i className="flaticon-location"></i>
-                                    </div>
-                                    <div className="footer__one-widget-location-item-info">
-                                        <span>Address</span>
-                                        <Link href="https://google.com/maps">321 Data Drive, Cloud City, WA 67890</Link>
+                                    <div className="footer__one-widget-location-item">
+                                        <div className="footer__one-widget-location-item-icon">
+                                            <i className="flaticon-location"></i>
+                                        </div>
+                                        <div className="footer__one-widget-location-item-info">
+                                            <span>Adresse</span>
+                                            <Link href="https://google.com/maps">1148 Avenue Charles de GAULES Centre-ville Pointe-Noire</Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-md-6 col-sm-6">
-                        <div className="footer__one-widget border-one tow">
-                            <h4>Newsletter</h4>
-                            <div className="footer__one-widget-subscribe">
-                                <p>Financial planners help people to gain knowledge aboutw</p>
-                                <form action="#">
-                                    <input type="text" name="email" placeholder="Your e-mail" required="" />
-                                    <button type="submit"><i className="fas fa-paper-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -109,13 +113,13 @@ const FooterTwo = () => {
                     <div className="row justify-content-between copyright__one-container-area">
                         <div className="col-xl-5 col-lg-6"> 
                             <div className="copyright__one-left">
-                                <p>© ThemeOri  2024 | All Rights Reserved</p>
+                                <p>© 2024 | www.afripconsulting.com</p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6">
                             <div className="copyright__one-right">
-                                <Link href="/about">Privacy Policy</Link>
-                                <Link href="/contact">Contact Us</Link>
+                                <Link href="/about">A propos</Link>
+                                <Link href="/contact">Contactez-nous</Link>
                             </div>
                         </div>
                     </div>
